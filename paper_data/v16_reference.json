@@ -1,0 +1,10 @@
+{
+  "v15_pdf_sha256": "8b0a6e710bfabb23d93dd5eb27907af37f209c53bfa79cf34de293b8bc3ffe4b",
+  "v15_main_sha256": "a7878b30c119bc0422026abe2aaa22e861e13a1977cad5ef051cb1e719668386",
+  "data_hashes": {
+    "cost_by_seed.csv": "ae93ea52985b7860e36741346536ddf77e4867d3771e0bdb78532a4020542e3f",
+    "cost_summary.csv": "64b67f518626f708377396a79aeed6fcf7404ab3843f08408969ad55fbc99c3d",
+    "training_iterations.csv": "fd35193bf59a47e8ced46d005ff1481b6ec94ace3cc7689fa9bf20b75b484a13",
+    "training_source.json": "aee9ef0772576608c077e28f803f6f0226d89a8474fe3af36f90492bd5d29e34"
+  }
+}

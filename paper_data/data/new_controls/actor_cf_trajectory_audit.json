@@ -1,0 +1,138 @@
+{
+  "scope": "all retained CF-Actor training trajectories",
+  "11": {
+    "counts": {
+      "trajectories": 6000,
+      "actor_decisions": 52797,
+      "logical_evaluations": 633564,
+      "positive_advantage": 16587,
+      "zero_advantage": 5253
+    },
+    "unique_qids_by_iteration": {
+      "0": 2000,
+      "1": 2000,
+      "2": 2000
+    },
+    "stage_counts": {
+      "query_strategy": 6000,
+      "retriever": 6000,
+      "selection": 6000,
+      "retrieval_k": 6000,
+      "control": 16797,
+      "reranker": 6000,
+      "top_m": 6000
+    },
+    "violations": {},
+    "positive_advantage_fraction": 0.31416557758963576,
+    "chosen_action_is_table_max_fraction": 0.33272723829005435,
+    "mean_raw_advantage": 0.0002624870130837017,
+    "mean_table_range": 0.13776950859417098,
+    "training_actor_path_rates_by_iteration": {
+      "0": {
+        "query.decomposition": 0.537,
+        "retriever.bm25": 0.593,
+        "reranker.qwen3": 0.811
+      },
+      "1": {
+        "query.decomposition": 0.4575,
+        "retriever.bm25": 0.5445,
+        "reranker.qwen3": 0.8395
+      },
+      "2": {
+        "query.decomposition": 0.396,
+        "retriever.bm25": 0.485,
+        "reranker.qwen3": 0.874
+      }
+    }
+  },
+  "23": {
+    "counts": {
+      "trajectories": 6000,
+      "actor_decisions": 52749,
+      "logical_evaluations": 632988,
+      "positive_advantage": 16768,
+      "zero_advantage": 5230
+    },
+    "unique_qids_by_iteration": {
+      "0": 2000,
+      "1": 2000,
+      "2": 2000
+    },
+    "stage_counts": {
+      "query_strategy": 6000,
+      "retriever": 6000,
+      "selection": 6000,
+      "retrieval_k": 6000,
+      "control": 16749,
+      "reranker": 6000,
+      "top_m": 6000
+    },
+    "violations": {},
+    "positive_advantage_fraction": 0.31788280346546854,
+    "chosen_action_is_table_max_fraction": 0.33704904358376464,
+    "mean_raw_advantage": -0.00022055455716649721,
+    "mean_table_range": 0.1415508000531228,
+    "training_actor_path_rates_by_iteration": {
+      "0": {
+        "query.decomposition": 0.553,
+        "retriever.bm25": 0.613,
+        "reranker.qwen3": 0.81
+      },
+      "1": {
+        "query.decomposition": 0.473,
+        "retriever.bm25": 0.5705,
+        "reranker.qwen3": 0.794
+      },
+      "2": {
+        "query.decomposition": 0.386,
+        "retriever.bm25": 0.4775,
+        "reranker.qwen3": 0.804
+      }
+    }
+  },
+  "37": {
+    "counts": {
+      "trajectories": 6000,
+      "actor_decisions": 52811,
+      "logical_evaluations": 633732,
+      "positive_advantage": 16571,
+      "zero_advantage": 5243
+    },
+    "unique_qids_by_iteration": {
+      "0": 2000,
+      "1": 2000,
+      "2": 2000
+    },
+    "stage_counts": {
+      "query_strategy": 6000,
+      "retriever": 6000,
+      "selection": 6000,
+      "retrieval_k": 6000,
+      "control": 16811,
+      "reranker": 6000,
+      "top_m": 6000
+    },
+    "violations": {},
+    "positive_advantage_fraction": 0.31377932627672267,
+    "chosen_action_is_table_max_fraction": 0.33227926000265096,
+    "mean_raw_advantage": -2.4996941928490713e-05,
+    "mean_table_range": 0.13752128484228685,
+    "training_actor_path_rates_by_iteration": {
+      "0": {
+        "query.decomposition": 0.544,
+        "retriever.bm25": 0.605,
+        "reranker.qwen3": 0.8215
+      },
+      "1": {
+        "query.decomposition": 0.48,
+        "retriever.bm25": 0.564,
+        "reranker.qwen3": 0.8165
+      },
+      "2": {
+        "query.decomposition": 0.4155,
+        "retriever.bm25": 0.5,
+        "reranker.qwen3": 0.8075
+      }
+    }
+  }
+}

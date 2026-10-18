@@ -1,0 +1,21 @@
+% BEGIN_TABLE:paired
+\begin{table}[H]
+\centering
+\small
+\setlength{\tabcolsep}{2.8pt}
+\caption{Paired HotpotQA test-utility differences. Each pair shares its seed and test questions. The final column uses sample SD across the three paired differences.}
+\label{tab:paired}
+\begin{tabularx}{\linewidth}{@{}Y r r r r@{}}
+\toprule
+\textbf{Contrast} & \textbf{Seed 11} & \textbf{Seed 23} & \textbf{Seed 37} & \textbf{Mean \(\pm\) SD} \\
+\midrule
+VinePPO-PPO & 0.0233 & 0.0247 & 0.0383 & 0.0288 \(\pm\) 0.0083 \\
+ASCT-Uniform--VinePPO & 0.0219 & 0.0442 & -0.0039 & 0.0207 \(\pm\) 0.0241 \\
+ASCT-UCT--VinePPO & 0.0384 & 0.0225 & -0.0199 & 0.0137 \(\pm\) 0.0302 \\
+\textbf{\boldmath \asctagent{}--VinePPO} & \textbf{\boldmath 0.0293} & \textbf{\boldmath 0.0354} & \textbf{\boldmath 0.0098} & \textbf{\boldmath 0.0248 \(\pm\) 0.0133} \\
+\textbf{\boldmath \asctagent{}--ASCT-Uniform} & \textbf{\boldmath 0.0073} & \textbf{\boldmath -0.0088} & \textbf{\boldmath 0.0138} & \textbf{\boldmath 0.0041 \(\pm\) 0.0116} \\
+\textbf{\boldmath \asctagent{}--ASCT-UCT} & \textbf{\boldmath -0.0091} & \textbf{\boldmath 0.0128} & \textbf{\boldmath 0.0298} & \textbf{\boldmath 0.0112 \(\pm\) 0.0195} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+% END_TABLE:paired

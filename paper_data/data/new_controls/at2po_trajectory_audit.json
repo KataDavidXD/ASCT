@@ -1,0 +1,130 @@
+{
+  "full_record_scope": "all compressed AT2PO trajectory lines",
+  "tree_structure_scope": "first 20 records in each iteration and seed",
+  "11": {
+    "record_counts": {
+      "trajectories": 6000,
+      "iteration_0": 2000,
+      "iteration_1": 2000,
+      "iteration_2": 2000
+    },
+    "unique_qids_by_iteration": {
+      "0": 2000,
+      "1": 2000,
+      "2": 2000
+    },
+    "sample_size_by_iteration": {
+      "0": 20,
+      "1": 20,
+      "2": 20
+    },
+    "sample_mean_training_occurrences": {
+      "0": 934.75,
+      "1": 940.6,
+      "2": 940.05
+    },
+    "sample_mean_unique_sampled_nodes": {
+      "0": 801.7,
+      "1": 813.1,
+      "2": 815.4
+    },
+    "sample_representative_path_rates": {
+      "0": {
+        "query.decomposition": 0.5,
+        "retriever.bm25": 0.65
+      },
+      "1": {
+        "query.decomposition": 0.65,
+        "retriever.bm25": 0.7
+      },
+      "2": {
+        "query.decomposition": 0.5,
+        "retriever.bm25": 0.65
+      }
+    }
+  },
+  "23": {
+    "record_counts": {
+      "trajectories": 6000,
+      "iteration_0": 2000,
+      "iteration_1": 2000,
+      "iteration_2": 2000
+    },
+    "unique_qids_by_iteration": {
+      "0": 2000,
+      "1": 2000,
+      "2": 2000
+    },
+    "sample_size_by_iteration": {
+      "0": 20,
+      "1": 20,
+      "2": 20
+    },
+    "sample_mean_training_occurrences": {
+      "0": 938.75,
+      "1": 936.4,
+      "2": 937.45
+    },
+    "sample_mean_unique_sampled_nodes": {
+      "0": 804.15,
+      "1": 803.2,
+      "2": 808.35
+    },
+    "sample_representative_path_rates": {
+      "0": {
+        "query.decomposition": 0.55,
+        "retriever.bm25": 0.6
+      },
+      "1": {
+        "query.decomposition": 0.7,
+        "retriever.bm25": 0.6
+      },
+      "2": {
+        "query.decomposition": 0.55,
+        "retriever.bm25": 0.4
+      }
+    }
+  },
+  "37": {
+    "record_counts": {
+      "trajectories": 6000,
+      "iteration_0": 2000,
+      "iteration_1": 2000,
+      "iteration_2": 2000
+    },
+    "unique_qids_by_iteration": {
+      "0": 2000,
+      "1": 2000,
+      "2": 2000
+    },
+    "sample_size_by_iteration": {
+      "0": 20,
+      "1": 20,
+      "2": 20
+    },
+    "sample_mean_training_occurrences": {
+      "0": 939.05,
+      "1": 936.4,
+      "2": 938.65
+    },
+    "sample_mean_unique_sampled_nodes": {
+      "0": 798.25,
+      "1": 800.85,
+      "2": 807.15
+    },
+    "sample_representative_path_rates": {
+      "0": {
+        "query.decomposition": 0.65,
+        "retriever.bm25": 0.5
+      },
+      "1": {
+        "query.decomposition": 0.65,
+        "retriever.bm25": 0.55
+      },
+      "2": {
+        "query.decomposition": 0.6,
+        "retriever.bm25": 0.5
+      }
+    }
+  }
+}

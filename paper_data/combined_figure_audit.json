@@ -1,0 +1,34 @@
+{
+  "source_files": {
+    "training_curve_means.csv": "55d5d1801d6b77d8da9d395a806702a1be8e45d2720aeb5f5e518cf380bf5367",
+    "cost_by_seed.csv": "ae93ea52985b7860e36741346536ddf77e4867d3771e0bdb78532a4020542e3f"
+  },
+  "width_inches": 5.5,
+  "text_points": 10,
+  "methods_training": [
+    "Uniform",
+    "UCT",
+    "AgentUCT"
+  ],
+  "methods_projection": [
+    "PPO",
+    "VinePPO",
+    "Uniform",
+    "UCT",
+    "AgentUCT"
+  ],
+  "projection_N_range": [
+    100000,
+    3000000
+  ],
+  "projection_formula": "U_test(seed) - 1e-4*T_aux(seed)/N",
+  "aggregation": "mean and sample SD over seeds 11,23,37; projections computed per seed before aggregation",
+  "AgentUCT_PPO_crossing": 360357.82457034825,
+  "data_changed": false,
+  "tick_changes": "projection x ticks reduced to 100k,500k,3M; y ticks 0.2,0.4,0.6",
+  "new_artwork": {
+    "side_by_side.pdf": "314f0342b5a0940b9b81f87f1d348e3de127de851745ad1b97148149949610e6",
+    "three_panels.pdf": "715efc084798d40a0ecae7174063e31ae601efed640b9f70dd697d930f554932",
+    "auxiliary_and_amortized.pdf": "715efc084798d40a0ecae7174063e31ae601efed640b9f70dd697d930f554932"
+  }
+}

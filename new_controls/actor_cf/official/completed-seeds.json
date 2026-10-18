@@ -1,0 +1,50 @@
+{
+  "11": {
+    "valid": {
+      "n": 400,
+      "f1_official": 0.683843759018759,
+      "em_official": 0.5875,
+      "utility_official": 0.5741239103859466,
+      "execution_cost_words": 4494.125
+    },
+    "test": {
+      "n": 400,
+      "f1_official": 0.7166527104431516,
+      "em_official": 0.6425,
+      "utility_official": 0.6041504521423704,
+      "execution_cost_words": 4608.0925
+    }
+  },
+  "23": {
+    "valid": {
+      "n": 400,
+      "f1_official": 0.6974072510822511,
+      "em_official": 0.605,
+      "utility_official": 0.5847284791095948,
+      "execution_cost_words": 4615.3225
+    },
+    "test": {
+      "n": 400,
+      "f1_official": 0.7217360437764849,
+      "em_official": 0.645,
+      "utility_official": 0.6055152185811724,
+      "execution_cost_words": 4760.405
+    }
+  },
+  "37": {
+    "valid": {
+      "n": 400,
+      "f1_official": 0.6748774891774891,
+      "em_official": 0.585,
+      "utility_official": 0.5560096302907704,
+      "execution_cost_words": 4868.8275
+    },
+    "test": {
+      "n": 400,
+      "f1_official": 0.7042771534021534,
+      "em_official": 0.6325,
+      "utility_official": 0.5827644580896534,
+      "execution_cost_words": 4977.16
+    }
+  }
+}

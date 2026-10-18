@@ -1,0 +1,17 @@
+{
+  "repository": "withheld for double-blind review",
+  "revision": "recorded in the private provenance archive",
+  "path": "docs/experiments/20260914-mixed-reproducible/data/iterations.csv",
+  "retained_fields": [
+    "method",
+    "seed",
+    "iteration",
+    "train_qids",
+    "searches",
+    "pulls",
+    "search_qwen_tokens",
+    "rollout_utility",
+    "auxiliary_actor_scoring_tokens"
+  ],
+  "scope": "Training ledgers only; no validation/test records imported."
+}

@@ -1,0 +1,9 @@
+method,control,ledger,delta_utility,delta_tokens,positive_crossing_N,relation
+AgentUCT,PPO,aux,0.05358228844627344,193087969,360357.82457034825,positive_crossing
+AgentUCT,PPO,env,0.05358228844627344,193087969,360357.82457034825,positive_crossing
+AgentUCT,VinePPO,aux,0.02481849435868788,-195286252.3333333,,higher_utility_lower_cost
+AgentUCT,VinePPO,env,0.02481849435868788,55999906.66666666,225637.80806897947,positive_crossing
+AgentUCT,Uniform,aux,0.004094026673738593,-3988591.6666666567,,higher_utility_lower_cost
+AgentUCT,Uniform,env,0.004094026673738593,-3988591.6666666567,,higher_utility_lower_cost
+AgentUCT,UCT,aux,0.011152889476102934,-4500161.333333343,,higher_utility_lower_cost
+AgentUCT,UCT,env,0.011152889476102934,-4500161.333333343,,higher_utility_lower_cost

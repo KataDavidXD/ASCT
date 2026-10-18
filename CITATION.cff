@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use ASCT, please cite the paper below."
+title: "ASCT: Attentive Search over Counterfactual Trees for Credit Assignment in Agentic Reinforcement Learning"
+type: software
+url: "https://github.com/KataDavidXD/ASCT"
+repository-code: "https://github.com/KataDavidXD/ASCT"
+license: MIT
+authors:
+  - family-names: Li
+    given-names: Yang
+  - family-names: Yang
+    given-names: Jinhan
+  - family-names: Liu
+    given-names: Hai
+  - family-names: Wan
+    given-names: Di
+  - family-names: Chen
+    given-names: Xiyu
+  - family-names: Xu
+    given-names: Zongsi
+  - family-names: Zhou
+    given-names: Tuo
+  - family-names: Zhong
+    given-names: Sheng
+  - family-names: Volkov
+    given-names: Sergey
+  - family-names: Luo
+    given-names: Ye
+  - family-names: Sun
+    given-names: Hao
+preferred-citation:
+  type: article
+  title: "ASCT: Attentive Search over Counterfactual Trees for Credit Assignment in Agentic Reinforcement Learning"
+  authors:
+    - family-names: Li
+      given-names: Yang
+    - family-names: Yang
+      given-names: Jinhan
+    - family-names: Liu
+      given-names: Hai
+    - family-names: Wan
+      given-names: Di
+    - family-names: Chen
+      given-names: Xiyu
+    - family-names: Xu
+      given-names: Zongsi
+    - family-names: Zhou
+      given-names: Tuo
+    - family-names: Zhong
+      given-names: Sheng
+    - family-names: Volkov
+      given-names: Sergey
+    - family-names: Luo
+      given-names: Ye
+    - family-names: Sun
+      given-names: Hao
+  year: 2026
+  journal: arXiv
+  doi: "10.48550/arXiv.2609.35215"
+  url: "https://arxiv.org/abs/2609.35215"

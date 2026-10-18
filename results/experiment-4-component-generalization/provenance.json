@@ -1,0 +1,14 @@
+{
+  "protocol": "component-a-description-controls-100-v1",
+  "models": {
+    "planner_base": "Qwen3-4B-Instruct-2507",
+    "embedding_component_a": "Qwen3-Embedding-0.6B"
+  },
+  "planners": ["ppo", "vineppo", "agentuct_rl", "uniform_rl", "uct_rl", "base_qwen3_4b"],
+  "rl_seeds": [11, 23, 37],
+  "conditions": ["correct_relation", "type_only", "name_only", "opposite_relation"],
+  "component_a_opt_in_only": true,
+  "base_adapter_disabled_for_planner": true,
+  "new_search_evaluations": 0,
+  "new_optimizer_updates": 0
+}

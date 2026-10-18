@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "protocol": "component-a-description-controls-100-v1",
+  "n": 100,
+  "planners": ["ppo", "vineppo", "agentuct", "uniform", "uct", "base_qwen3_4b"],
+  "rl_seeds": [11, 23, 37],
+  "conditions": ["correct_relation", "type_only", "name_only", "opposite_relation"],
+  "formal_endpoints": 6400,
+  "new_search_evaluations": 0,
+  "new_optimizer_updates": 0
+}

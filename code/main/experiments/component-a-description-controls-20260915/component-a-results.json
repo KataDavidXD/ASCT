@@ -1,0 +1,1507 @@
+{
+  "complete": true,
+  "protocol": "component-a-description-controls-100-v1",
+  "component_a": "retriever.qwen3_tagged_embedding",
+  "n": 100,
+  "seeds": [
+    11,
+    23,
+    37
+  ],
+  "conditions": [
+    "correct_relation",
+    "type_only",
+    "name_only",
+    "opposite_relation"
+  ],
+  "cells": [
+    {
+      "planner": "ppo",
+      "seed": 11,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.8,
+      "probability_a": 0.3690427419543266,
+      "f1": 0.6711269841269841,
+      "em": 0.62,
+      "utility": 0.44100564623635913,
+      "workflow_words": 9425.77
+    },
+    {
+      "planner": "ppo",
+      "seed": 11,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.02,
+      "probability_a": 0.21178132116794587,
+      "f1": 0.5861269841269842,
+      "em": 0.53,
+      "utility": 0.3346240544394841,
+      "workflow_words": 10301.56
+    },
+    {
+      "planner": "ppo",
+      "seed": 11,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.05137746896594763,
+      "f1": 0.5861269841269842,
+      "em": 0.53,
+      "utility": 0.3739595036582341,
+      "workflow_words": 8690.38
+    },
+    {
+      "planner": "ppo",
+      "seed": 11,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.02,
+      "probability_a": 0.15221860192716122,
+      "f1": 0.5961269841269842,
+      "em": 0.54,
+      "utility": 0.31643753100198413,
+      "workflow_words": 11456.08
+    },
+    {
+      "planner": "ppo",
+      "seed": 23,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.88,
+      "probability_a": 0.37965087294578553,
+      "f1": 0.6811269841269841,
+      "em": 0.63,
+      "utility": 0.4706570134238591,
+      "workflow_words": 8620.85
+    },
+    {
+      "planner": "ppo",
+      "seed": 23,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.08,
+      "probability_a": 0.22134663343429564,
+      "f1": 0.6061269841269841,
+      "em": 0.55,
+      "utility": 0.3717055974082341,
+      "workflow_words": 9601.9
+    },
+    {
+      "planner": "ppo",
+      "seed": 23,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.05712803449481726,
+      "f1": 0.5861269841269842,
+      "em": 0.53,
+      "utility": 0.3807082829551091,
+      "workflow_words": 8413.95
+    },
+    {
+      "planner": "ppo",
+      "seed": 23,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.02,
+      "probability_a": 0.1623442343622446,
+      "f1": 0.5977936507936508,
+      "em": 0.54,
+      "utility": 0.33956562344990077,
+      "workflow_words": 10577.02
+    },
+    {
+      "planner": "ppo",
+      "seed": 37,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.81,
+      "probability_a": 0.36170880272984507,
+      "f1": 0.6877936507936508,
+      "em": 0.63,
+      "utility": 0.4512360336061508,
+      "workflow_words": 9689.4
+    },
+    {
+      "planner": "ppo",
+      "seed": 37,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.20669381380081175,
+      "f1": 0.5794603174603175,
+      "em": 0.53,
+      "utility": 0.29815099128844247,
+      "workflow_words": 11522.43
+    },
+    {
+      "planner": "ppo",
+      "seed": 37,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.05579800602048635,
+      "f1": 0.5761269841269842,
+      "em": 0.52,
+      "utility": 0.37200735522073414,
+      "workflow_words": 8360.74
+    },
+    {
+      "planner": "ppo",
+      "seed": 37,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.02,
+      "probability_a": 0.1433533076941967,
+      "f1": 0.5911269841269842,
+      "em": 0.54,
+      "utility": 0.29234231615823414,
+      "workflow_words": 12238.22
+    },
+    {
+      "planner": "vineppo",
+      "seed": 11,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.95,
+      "probability_a": 0.40291140764951705,
+      "f1": 0.7022380952380952,
+      "em": 0.65,
+      "utility": 0.5235068940662202,
+      "workflow_words": 7320.83
+    },
+    {
+      "planner": "vineppo",
+      "seed": 11,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.31,
+      "probability_a": 0.25425856932997704,
+      "f1": 0.6589047619047619,
+      "em": 0.6,
+      "utility": 0.4652392345610119,
+      "workflow_words": 7932.54
+    },
+    {
+      "planner": "vineppo",
+      "seed": 11,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.0697099268808961,
+      "f1": 0.6572380952380953,
+      "em": 0.6,
+      "utility": 0.47480181594122023,
+      "workflow_words": 7472.59
+    },
+    {
+      "planner": "vineppo",
+      "seed": 11,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.05,
+      "probability_a": 0.1860604391247034,
+      "f1": 0.6472380952380953,
+      "em": 0.59,
+      "utility": 0.45292461867559525,
+      "workflow_words": 7959.08
+    },
+    {
+      "planner": "vineppo",
+      "seed": 23,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.91,
+      "probability_a": 0.4144580675661564,
+      "f1": 0.7122380952380952,
+      "em": 0.66,
+      "utility": 0.5231416596912203,
+      "workflow_words": 7745.39
+    },
+    {
+      "planner": "vineppo",
+      "seed": 23,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.16,
+      "probability_a": 0.24836824670434,
+      "f1": 0.6572380952380953,
+      "em": 0.6,
+      "utility": 0.44894390578497023,
+      "workflow_words": 8531.73
+    },
+    {
+      "planner": "vineppo",
+      "seed": 23,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.06040144205093384,
+      "f1": 0.6672380952380952,
+      "em": 0.61,
+      "utility": 0.4743582124255952,
+      "workflow_words": 7900.36
+    },
+    {
+      "planner": "vineppo",
+      "seed": 23,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.03,
+      "probability_a": 0.17475102581083773,
+      "f1": 0.6472380952380953,
+      "em": 0.59,
+      "utility": 0.4173032807849702,
+      "workflow_words": 9418.13
+    },
+    {
+      "planner": "vineppo",
+      "seed": 37,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.98,
+      "probability_a": 0.42261979550123213,
+      "f1": 0.7622380952380953,
+      "em": 0.7,
+      "utility": 0.5735818452380952,
+      "workflow_words": 7727.36
+    },
+    {
+      "planner": "vineppo",
+      "seed": 37,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.37,
+      "probability_a": 0.258581595569849,
+      "f1": 0.7111269841269842,
+      "em": 0.65,
+      "utility": 0.5112009587363591,
+      "workflow_words": 8188.97
+    },
+    {
+      "planner": "vineppo",
+      "seed": 37,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.07299160990864038,
+      "f1": 0.6627936507936508,
+      "em": 0.61,
+      "utility": 0.4724833480592758,
+      "workflow_words": 7795.11
+    },
+    {
+      "planner": "vineppo",
+      "seed": 37,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.04,
+      "probability_a": 0.18742047429084777,
+      "f1": 0.6242222222222222,
+      "em": 0.58,
+      "utility": 0.4057898491753472,
+      "workflow_words": 8946.99
+    },
+    {
+      "planner": "agentuct",
+      "seed": 11,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.92,
+      "probability_a": 0.3971772320568562,
+      "f1": 0.6822380952380952,
+      "em": 0.63,
+      "utility": 0.5188809175037202,
+      "workflow_words": 6691.11
+    },
+    {
+      "planner": "agentuct",
+      "seed": 11,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.2,
+      "probability_a": 0.24590643420815467,
+      "f1": 0.6427936507936508,
+      "em": 0.59,
+      "utility": 0.4606725570436508,
+      "workflow_words": 7459.68
+    },
+    {
+      "planner": "agentuct",
+      "seed": 11,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.06334822800010442,
+      "f1": 0.6427936507936508,
+      "em": 0.59,
+      "utility": 0.4711815902467758,
+      "workflow_words": 7029.23
+    },
+    {
+      "planner": "agentuct",
+      "seed": 11,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.05,
+      "probability_a": 0.17722598120570182,
+      "f1": 0.6327936507936508,
+      "em": 0.58,
+      "utility": 0.45001337735615077,
+      "workflow_words": 7486.68
+    },
+    {
+      "planner": "agentuct",
+      "seed": 23,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.99,
+      "probability_a": 0.4288070800900459,
+      "f1": 0.7822380952380953,
+      "em": 0.72,
+      "utility": 0.6302937593005953,
+      "workflow_words": 6223.64
+    },
+    {
+      "planner": "agentuct",
+      "seed": 23,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.6,
+      "probability_a": 0.27523050606250765,
+      "f1": 0.7289047619047619,
+      "em": 0.67,
+      "utility": 0.5636366954985119,
+      "workflow_words": 6769.38
+    },
+    {
+      "planner": "agentuct",
+      "seed": 23,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.08473241873085499,
+      "f1": 0.6612380952380953,
+      "em": 0.6,
+      "utility": 0.4954951753162202,
+      "workflow_words": 6788.83
+    },
+    {
+      "planner": "agentuct",
+      "seed": 23,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.07,
+      "probability_a": 0.19989120438694954,
+      "f1": 0.6086666666666667,
+      "em": 0.56,
+      "utility": 0.42018229166666665,
+      "workflow_words": 7720.32
+    },
+    {
+      "planner": "agentuct",
+      "seed": 37,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.94,
+      "probability_a": 0.4183169201016426,
+      "f1": 0.7022380952380952,
+      "em": 0.65,
+      "utility": 0.5168147553943452,
+      "workflow_words": 7594.94
+    },
+    {
+      "planner": "agentuct",
+      "seed": 37,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.32,
+      "probability_a": 0.2532147054374218,
+      "f1": 0.6289047619047619,
+      "em": 0.57,
+      "utility": 0.4284042736235119,
+      "workflow_words": 8212.5
+    },
+    {
+      "planner": "agentuct",
+      "seed": 37,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.0670817382633686,
+      "f1": 0.6472380952380953,
+      "em": 0.59,
+      "utility": 0.45649834914434523,
+      "workflow_words": 7812.7
+    },
+    {
+      "planner": "agentuct",
+      "seed": 37,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.03,
+      "probability_a": 0.18154119536280633,
+      "f1": 0.6272380952380953,
+      "em": 0.57,
+      "utility": 0.4135908784412202,
+      "workflow_words": 8750.99
+    },
+    {
+      "planner": "uniform",
+      "seed": 11,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.97,
+      "probability_a": 0.4094071762263775,
+      "f1": 0.7322380952380952,
+      "em": 0.67,
+      "utility": 0.5429397553943452,
+      "workflow_words": 7753.66
+    },
+    {
+      "planner": "uniform",
+      "seed": 11,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.4,
+      "probability_a": 0.25206869587302205,
+      "f1": 0.6527936507936508,
+      "em": 0.6,
+      "utility": 0.4455985824342758,
+      "workflow_words": 8486.71
+    },
+    {
+      "planner": "uniform",
+      "seed": 11,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.06974312480539084,
+      "f1": 0.6694603174603174,
+      "em": 0.61,
+      "utility": 0.4779695948040674,
+      "workflow_words": 7843.46
+    },
+    {
+      "planner": "uniform",
+      "seed": 11,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.04,
+      "probability_a": 0.1785106249153614,
+      "f1": 0.6308888888888888,
+      "em": 0.58,
+      "utility": 0.3932787814670139,
+      "workflow_words": 9732.51
+    },
+    {
+      "planner": "uniform",
+      "seed": 23,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.94,
+      "probability_a": 0.40419343501329424,
+      "f1": 0.7689047619047619,
+      "em": 0.71,
+      "utility": 0.5821132579985119,
+      "workflow_words": 7650.98
+    },
+    {
+      "planner": "uniform",
+      "seed": 23,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.18,
+      "probability_a": 0.24868890389800072,
+      "f1": 0.6994603174603174,
+      "em": 0.64,
+      "utility": 0.4961651514446924,
+      "workflow_words": 8326.97
+    },
+    {
+      "planner": "uniform",
+      "seed": 23,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.07138375408947467,
+      "f1": 0.7027936507936507,
+      "em": 0.65,
+      "utility": 0.5118346664186508,
+      "workflow_words": 7821.68
+    },
+    {
+      "planner": "uniform",
+      "seed": 23,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.04,
+      "probability_a": 0.1849615068733692,
+      "f1": 0.6927936507936507,
+      "em": 0.64,
+      "utility": 0.4903185531374008,
+      "workflow_words": 8293.38
+    },
+    {
+      "planner": "uniform",
+      "seed": 37,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.97,
+      "probability_a": 0.3948328226804733,
+      "f1": 0.7422380952380953,
+      "em": 0.68,
+      "utility": 0.5472798432849703,
+      "workflow_words": 7985.49
+    },
+    {
+      "planner": "uniform",
+      "seed": 37,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.32,
+      "probability_a": 0.24322436273097991,
+      "f1": 0.6911269841269841,
+      "em": 0.63,
+      "utility": 0.4787075505332341,
+      "workflow_words": 8700.7
+    },
+    {
+      "planner": "uniform",
+      "seed": 37,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.06847552947700024,
+      "f1": 0.6627936507936508,
+      "em": 0.61,
+      "utility": 0.4683319808717758,
+      "workflow_words": 7965.15
+    },
+    {
+      "planner": "uniform",
+      "seed": 37,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.03,
+      "probability_a": 0.17380056582391262,
+      "f1": 0.6427936507936508,
+      "em": 0.59,
+      "utility": 0.3983666488405258,
+      "workflow_words": 10011.73
+    },
+    {
+      "planner": "uct",
+      "seed": 11,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.91,
+      "probability_a": 0.39568904861807824,
+      "f1": 0.7689047619047619,
+      "em": 0.71,
+      "utility": 0.600679175967262,
+      "workflow_words": 6890.52
+    },
+    {
+      "planner": "uct",
+      "seed": 11,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.22,
+      "probability_a": 0.25431948706507684,
+      "f1": 0.6794603174603174,
+      "em": 0.62,
+      "utility": 0.49347643074156744,
+      "workflow_words": 7617.9
+    },
+    {
+      "planner": "uct",
+      "seed": 11,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.06552181657403708,
+      "f1": 0.6727936507936508,
+      "em": 0.62,
+      "utility": 0.4958410140749008,
+      "workflow_words": 7247.98
+    },
+    {
+      "planner": "uct",
+      "seed": 11,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.04,
+      "probability_a": 0.18062383443117142,
+      "f1": 0.6527936507936508,
+      "em": 0.6,
+      "utility": 0.4661207992311508,
+      "workflow_words": 7646.12
+    },
+    {
+      "planner": "uct",
+      "seed": 23,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.95,
+      "probability_a": 0.401524433940649,
+      "f1": 0.7489047619047619,
+      "em": 0.69,
+      "utility": 0.587262916201637,
+      "workflow_words": 6620.85
+    },
+    {
+      "planner": "uct",
+      "seed": 23,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.25,
+      "probability_a": 0.2489529725909233,
+      "f1": 0.6511269841269841,
+      "em": 0.59,
+      "utility": 0.4651716618613591,
+      "workflow_words": 7616.73
+    },
+    {
+      "planner": "uct",
+      "seed": 23,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.07319698758423328,
+      "f1": 0.6527936507936508,
+      "em": 0.6,
+      "utility": 0.4797230941530258,
+      "workflow_words": 7088.97
+    },
+    {
+      "planner": "uct",
+      "seed": 23,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.02,
+      "probability_a": 0.17905042819678785,
+      "f1": 0.6327936507936508,
+      "em": 0.58,
+      "utility": 0.4136642562624008,
+      "workflow_words": 8975.54
+    },
+    {
+      "planner": "uct",
+      "seed": 37,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.94,
+      "probability_a": 0.38409132793545725,
+      "f1": 0.6844603174603174,
+      "em": 0.63,
+      "utility": 0.5253560694134425,
+      "workflow_words": 6516.91
+    },
+    {
+      "planner": "uct",
+      "seed": 37,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.12,
+      "probability_a": 0.21743677958846092,
+      "f1": 0.6494603174603174,
+      "em": 0.59,
+      "utility": 0.4481212061321925,
+      "workflow_words": 8246.85
+    },
+    {
+      "planner": "uct",
+      "seed": 37,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.05603287346661091,
+      "f1": 0.6794603174603174,
+      "em": 0.62,
+      "utility": 0.5134415186321925,
+      "workflow_words": 6800.13
+    },
+    {
+      "planner": "uct",
+      "seed": 37,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.02,
+      "probability_a": 0.1472790924459696,
+      "f1": 0.6694603174603174,
+      "em": 0.61,
+      "utility": 0.46156310066344247,
+      "workflow_words": 8515.47
+    },
+    {
+      "planner": "base_qwen3_4b",
+      "seed": null,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.82,
+      "probability_a": 0.3448203840851784,
+      "f1": 0.6977936507936507,
+      "em": 0.64,
+      "utility": 0.42625214688740076,
+      "workflow_words": 11122.34
+    },
+    {
+      "planner": "base_qwen3_4b",
+      "seed": null,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.01,
+      "probability_a": 0.19623593211174012,
+      "f1": 0.6017936507936508,
+      "em": 0.54,
+      "utility": 0.2373258773561508,
+      "workflow_words": 14928.6
+    },
+    {
+      "planner": "base_qwen3_4b",
+      "seed": null,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.052228096574544906,
+      "f1": 0.5951269841269842,
+      "em": 0.54,
+      "utility": 0.37413601733010915,
+      "workflow_words": 9051.79
+    },
+    {
+      "planner": "base_qwen3_4b",
+      "seed": null,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.02,
+      "probability_a": 0.13907916814088822,
+      "f1": 0.5977936507936508,
+      "em": 0.54,
+      "utility": 0.1762311507936508,
+      "workflow_words": 17267.2
+    }
+  ],
+  "three_seed": [
+    {
+      "planner": "ppo",
+      "condition": "correct_relation",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.8300000000000001,
+          "sample_sd": 0.04358898943540671
+        },
+        "probability_a": {
+          "mean": 0.3701341392099857,
+          "sample_sd": 0.009020689102595193
+        },
+        "f1": {
+          "mean": 0.6800158730158731,
+          "sample_sd": 0.008388704928078635
+        },
+        "em": {
+          "mean": 0.6266666666666667,
+          "sample_sd": 0.005773502691896263
+        },
+        "utility": {
+          "mean": 0.454299564422123,
+          "sample_sd": 0.015061202137189996
+        },
+        "workflow_words": {
+          "mean": 9245.34,
+          "sample_sd": 556.6561005683848
+        }
+      }
+    },
+    {
+      "planner": "ppo",
+      "condition": "type_only",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.03333333333333333,
+          "sample_sd": 0.041633319989322654
+        },
+        "probability_a": {
+          "mean": 0.21327392280101776,
+          "sample_sd": 0.007439568235397762
+        },
+        "f1": {
+          "mean": 0.5905714285714285,
+          "sample_sd": 0.013877773329774183
+        },
+        "em": {
+          "mean": 0.5366666666666667,
+          "sample_sd": 0.011547005383792526
+        },
+        "utility": {
+          "mean": 0.3348268810453869,
+          "sample_sd": 0.03677772252782204
+        },
+        "workflow_words": {
+          "mean": 10475.296666666667,
+          "sample_sd": 971.9810657792332
+        }
+      }
+    },
+    {
+      "planner": "ppo",
+      "condition": "name_only",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0,
+          "sample_sd": 0.0
+        },
+        "probability_a": {
+          "mean": 0.054767836493750416,
+          "sample_sd": 0.0030105128991282227
+        },
+        "f1": {
+          "mean": 0.5827936507936509,
+          "sample_sd": 0.005773502691896263
+        },
+        "em": {
+          "mean": 0.5266666666666667,
+          "sample_sd": 0.005773502691896263
+        },
+        "utility": {
+          "mean": 0.3755583806113591,
+          "sample_sd": 0.004565505611991913
+        },
+        "workflow_words": {
+          "mean": 8488.356666666667,
+          "sample_sd": 176.96863121280322
+        }
+      }
+    },
+    {
+      "planner": "ppo",
+      "condition": "opposite_relation",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.02,
+          "sample_sd": 0.0
+        },
+        "probability_a": {
+          "mean": 0.15263871466120085,
+          "sample_sd": 0.009502431002631368
+        },
+        "f1": {
+          "mean": 0.595015873015873,
+          "sample_sd": 0.003469443332443528
+        },
+        "em": {
+          "mean": 0.54,
+          "sample_sd": 0.0
+        },
+        "utility": {
+          "mean": 0.31611515687003966,
+          "sample_sd": 0.023613304125037305
+        },
+        "workflow_words": {
+          "mean": 11423.773333333333,
+          "sample_sd": 831.071086329763
+        }
+      }
+    },
+    {
+      "planner": "vineppo",
+      "condition": "correct_relation",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.9466666666666667,
+          "sample_sd": 0.03511884584284244
+        },
+        "probability_a": {
+          "mean": 0.41332975690563517,
+          "sample_sd": 0.009902522488658735
+        },
+        "f1": {
+          "mean": 0.7255714285714285,
+          "sample_sd": 0.03214550253664321
+        },
+        "em": {
+          "mean": 0.67,
+          "sample_sd": 0.026457513110645866
+        },
+        "utility": {
+          "mean": 0.5400767996651785,
+          "sample_sd": 0.029016795277383507
+        },
+        "workflow_words": {
+          "mean": 7597.86,
+          "sample_sd": 240.0843308089889
+        }
+      }
+    },
+    {
+      "planner": "vineppo",
+      "condition": "type_only",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.28,
+          "sample_sd": 0.10816653826391967
+        },
+        "probability_a": {
+          "mean": 0.25373613720138866,
+          "sample_sd": 0.005126677799402315
+        },
+        "f1": {
+          "mean": 0.6757566137566138,
+          "sample_sd": 0.030642972596458814
+        },
+        "em": {
+          "mean": 0.6166666666666667,
+          "sample_sd": 0.028867513459481315
+        },
+        "utility": {
+          "mean": 0.47512803302744705,
+          "sample_sd": 0.032285080329470084
+        },
+        "workflow_words": {
+          "mean": 8217.746666666666,
+          "sample_sd": 300.62973311589326
+        }
+      }
+    },
+    {
+      "planner": "vineppo",
+      "condition": "name_only",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0,
+          "sample_sd": 0.0
+        },
+        "probability_a": {
+          "mean": 0.06770099294682344,
+          "sample_sd": 0.006531075205118085
+        },
+        "f1": {
+          "mean": 0.6624232804232805,
+          "sample_sd": 0.005010277503136499
+        },
+        "em": {
+          "mean": 0.6066666666666667,
+          "sample_sd": 0.005773502691896263
+        },
+        "utility": {
+          "mean": 0.47388112547536376,
+          "sample_sd": 0.0012306633570814084
+        },
+        "workflow_words": {
+          "mean": 7722.6866666666665,
+          "sample_sd": 222.8915602559532
+        }
+      }
+    },
+    {
+      "planner": "vineppo",
+      "condition": "opposite_relation",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.04,
+          "sample_sd": 0.010000000000000002
+        },
+        "probability_a": {
+          "mean": 0.18274397974212964,
+          "sample_sd": 0.006955422943581744
+        },
+        "f1": {
+          "mean": 0.6395661375661376,
+          "sample_sd": 0.013288220481348546
+        },
+        "em": {
+          "mean": 0.5866666666666667,
+          "sample_sd": 0.005773502691896263
+        },
+        "utility": {
+          "mean": 0.4253392495453042,
+          "sample_sd": 0.02457344541162627
+        },
+        "workflow_words": {
+          "mean": 8774.733333333334,
+          "sample_sd": 744.6213769650539
+        }
+      }
+    },
+    {
+      "planner": "agentuct",
+      "condition": "correct_relation",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.95,
+          "sample_sd": 0.036055512754639876
+        },
+        "probability_a": {
+          "mean": 0.4147670774161816,
+          "sample_sd": 0.016110954626256953
+        },
+        "f1": {
+          "mean": 0.7222380952380952,
+          "sample_sd": 0.05291502622129186
+        },
+        "em": {
+          "mean": 0.6666666666666666,
+          "sample_sd": 0.047258156262526066
+        },
+        "utility": {
+          "mean": 0.5553298107328869,
+          "sample_sd": 0.06492890300253097
+        },
+        "workflow_words": {
+          "mean": 6836.5633333333335,
+          "sample_sd": 697.1251154802363
+        }
+      }
+    },
+    {
+      "planner": "agentuct",
+      "condition": "type_only",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.37333333333333335,
+          "sample_sd": 0.20526405757787536
+        },
+        "probability_a": {
+          "mean": 0.25811721523602804,
+          "sample_sd": 0.015264378443745648
+        },
+        "f1": {
+          "mean": 0.6668677248677248,
+          "sample_sd": 0.05417260176411142
+        },
+        "em": {
+          "mean": 0.61,
+          "sample_sd": 0.05291502622129186
+        },
+        "utility": {
+          "mean": 0.48423784205522485,
+          "sample_sd": 0.07062891741207729
+        },
+        "workflow_words": {
+          "mean": 7480.52,
+          "sample_sd": 721.7856764996102
+        }
+      }
+    },
+    {
+      "planner": "agentuct",
+      "condition": "name_only",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0,
+          "sample_sd": 0.0
+        },
+        "probability_a": {
+          "mean": 0.07172079499810934,
+          "sample_sd": 0.011421976135651272
+        },
+        "f1": {
+          "mean": 0.6504232804232805,
+          "sample_sd": 0.009625925213401158
+        },
+        "em": {
+          "mean": 0.5933333333333333,
+          "sample_sd": 0.005773502691896263
+        },
+        "utility": {
+          "mean": 0.4743917049024471,
+          "sample_sd": 0.019695602045806455
+        },
+        "workflow_words": {
+          "mean": 7210.253333333333,
+          "sample_sd": 535.4012790733071
+        }
+      }
+    },
+    {
+      "planner": "agentuct",
+      "condition": "opposite_relation",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.05,
+          "sample_sd": 0.020000000000000004
+        },
+        "probability_a": {
+          "mean": 0.1862194603184859,
+          "sample_sd": 0.012035061599784064
+        },
+        "f1": {
+          "mean": 0.622899470899471,
+          "sample_sd": 0.012635093455519568
+        },
+        "em": {
+          "mean": 0.57,
+          "sample_sd": 0.009999999999999953
+        },
+        "utility": {
+          "mean": 0.4279288491546792,
+          "sample_sd": 0.019407639513561194
+        },
+        "workflow_words": {
+          "mean": 7985.996666666667,
+          "sample_sd": 672.7243212738284
+        }
+      }
+    },
+    {
+      "planner": "uniform",
+      "condition": "correct_relation",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.96,
+          "sample_sd": 0.017320508075688787
+        },
+        "probability_a": {
+          "mean": 0.40281114464004836,
+          "sample_sd": 0.007384848700361351
+        },
+        "f1": {
+          "mean": 0.7477936507936508,
+          "sample_sd": 0.0189541356769244
+        },
+        "em": {
+          "mean": 0.6866666666666666,
+          "sample_sd": 0.020816659994661285
+        },
+        "utility": {
+          "mean": 0.5574442855592758,
+          "sample_sd": 0.021473885107973118
+        },
+        "workflow_words": {
+          "mean": 7796.71,
+          "sample_sd": 171.35988999763052
+        }
+      }
+    },
+    {
+      "planner": "uniform",
+      "condition": "type_only",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.3,
+          "sample_sd": 0.11135528725660045
+        },
+        "probability_a": {
+          "mean": 0.24799398750066756,
+          "sample_sd": 0.004462929394614944
+        },
+        "f1": {
+          "mean": 0.6811269841269841,
+          "sample_sd": 0.024888640871780117
+        },
+        "em": {
+          "mean": 0.6233333333333333,
+          "sample_sd": 0.020816659994661344
+        },
+        "utility": {
+          "mean": 0.4734904281374008,
+          "sample_sd": 0.025683812994591278
+        },
+        "workflow_words": {
+          "mean": 8504.793333333333,
+          "sample_sd": 187.5200880794738
+        }
+      }
+    },
+    {
+      "planner": "uniform",
+      "condition": "name_only",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0,
+          "sample_sd": 0.0
+        },
+        "probability_a": {
+          "mean": 0.06986746945728858,
+          "sample_sd": 0.0014580942334061248
+        },
+        "f1": {
+          "mean": 0.6783492063492064,
+          "sample_sd": 0.02143033502442876
+        },
+        "em": {
+          "mean": 0.6233333333333333,
+          "sample_sd": 0.023094010767585053
+        },
+        "utility": {
+          "mean": 0.48604541403149804,
+          "sample_sd": 0.02284808645364368
+        },
+        "workflow_words": {
+          "mean": 7876.763333333333,
+          "sample_sd": 77.31587310076297
+        }
+      }
+    },
+    {
+      "planner": "uniform",
+      "condition": "opposite_relation",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.03666666666666667,
+          "sample_sd": 0.005773502691896259
+        },
+        "probability_a": {
+          "mean": 0.17909089920421442,
+          "sample_sd": 0.005603051843869478
+        },
+        "f1": {
+          "mean": 0.6554920634920635,
+          "sample_sd": 0.03284793981996011
+        },
+        "em": {
+          "mean": 0.6033333333333333,
+          "sample_sd": 0.03214550253664321
+        },
+        "utility": {
+          "mean": 0.42732132781498017,
+          "sample_sd": 0.05461647551193219
+        },
+        "workflow_words": {
+          "mean": 9345.873333333333,
+          "sample_sd": 922.1158358001092
+        }
+      }
+    },
+    {
+      "planner": "uct",
+      "condition": "correct_relation",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.9333333333333333,
+          "sample_sd": 0.020816659994661285
+        },
+        "probability_a": {
+          "mean": 0.39376827016472815,
+          "sample_sd": 0.008873857033286244
+        },
+        "f1": {
+          "mean": 0.734089947089947,
+          "sample_sd": 0.04412850669216734
+        },
+        "em": {
+          "mean": 0.6766666666666666,
+          "sample_sd": 0.04163331998932263
+        },
+        "utility": {
+          "mean": 0.5710993871941138,
+          "sample_sd": 0.04017881715173173
+        },
+        "workflow_words": {
+          "mean": 6676.093333333333,
+          "sample_sd": 192.83406709742297
+        }
+      }
+    },
+    {
+      "planner": "uct",
+      "condition": "type_only",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.19666666666666666,
+          "sample_sd": 0.06806859285554046
+        },
+        "probability_a": {
+          "mean": 0.24023641308148702,
+          "sample_sd": 0.019926548495978004
+        },
+        "f1": {
+          "mean": 0.660015873015873,
+          "sample_sd": 0.016859989894992804
+        },
+        "em": {
+          "mean": 0.6,
+          "sample_sd": 0.017320508075688787
+        },
+        "utility": {
+          "mean": 0.468923099578373,
+          "sample_sd": 0.02290914803195852
+        },
+        "workflow_words": {
+          "mean": 7827.16,
+          "sample_sd": 363.4626724988418
+        }
+      }
+    },
+    {
+      "planner": "uct",
+      "condition": "name_only",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0,
+          "sample_sd": 0.0
+        },
+        "probability_a": {
+          "mean": 0.06491722587496042,
+          "sample_sd": 0.008598014351915702
+        },
+        "f1": {
+          "mean": 0.6683492063492064,
+          "sample_sd": 0.0138777733297742
+        },
+        "em": {
+          "mean": 0.6133333333333333,
+          "sample_sd": 0.011547005383792526
+        },
+        "utility": {
+          "mean": 0.496335208953373,
+          "sample_sd": 0.016864643748764684
+        },
+        "workflow_words": {
+          "mean": 7045.693333333334,
+          "sample_sd": 227.0397719196644
+        }
+      }
+    },
+    {
+      "planner": "uct",
+      "condition": "opposite_relation",
+      "metrics": {
+        "selection_rate": {
+          "mean": 0.02666666666666667,
+          "sample_sd": 0.011547005383792516
+        },
+        "probability_a": {
+          "mean": 0.16898445169130963,
+          "sample_sd": 0.0188138477396717
+        },
+        "f1": {
+          "mean": 0.6516825396825396,
+          "sample_sd": 0.018358568490953655
+        },
+        "em": {
+          "mean": 0.5966666666666667,
+          "sample_sd": 0.01527525231651948
+        },
+        "utility": {
+          "mean": 0.44711605205233135,
+          "sample_sd": 0.02905959626761761
+        },
+        "workflow_words": {
+          "mean": 8379.043333333333,
+          "sample_sd": 675.1285511910556
+        }
+      }
+    }
+  ],
+  "base_qwen3_4b": [
+    {
+      "planner": "base_qwen3_4b",
+      "seed": null,
+      "condition": "correct_relation",
+      "n": 100,
+      "selection_rate": 0.82,
+      "probability_a": 0.3448203840851784,
+      "f1": 0.6977936507936507,
+      "em": 0.64,
+      "utility": 0.42625214688740076,
+      "workflow_words": 11122.34
+    },
+    {
+      "planner": "base_qwen3_4b",
+      "seed": null,
+      "condition": "type_only",
+      "n": 100,
+      "selection_rate": 0.01,
+      "probability_a": 0.19623593211174012,
+      "f1": 0.6017936507936508,
+      "em": 0.54,
+      "utility": 0.2373258773561508,
+      "workflow_words": 14928.6
+    },
+    {
+      "planner": "base_qwen3_4b",
+      "seed": null,
+      "condition": "name_only",
+      "n": 100,
+      "selection_rate": 0,
+      "probability_a": 0.052228096574544906,
+      "f1": 0.5951269841269842,
+      "em": 0.54,
+      "utility": 0.37413601733010915,
+      "workflow_words": 9051.79
+    },
+    {
+      "planner": "base_qwen3_4b",
+      "seed": null,
+      "condition": "opposite_relation",
+      "n": 100,
+      "selection_rate": 0.02,
+      "probability_a": 0.13907916814088822,
+      "f1": 0.5977936507936508,
+      "em": 0.54,
+      "utility": 0.1762311507936508,
+      "workflow_words": 17267.2
+    }
+  ],
+  "contrasts": [
+    {
+      "planner": "ppo",
+      "correct_minus_opposite_selection": {
+        "mean": 0.81,
+        "sample_sd": 0.04358898943540671
+      },
+      "correct_minus_opposite_probability_a": {
+        "mean": 0.2174954245487849,
+        "sample_sd": 0.0007829381495407411
+      },
+      "per_item_probability_direction_rate": 1
+    },
+    {
+      "planner": "vineppo",
+      "correct_minus_opposite_selection": {
+        "mean": 0.9066666666666666,
+        "sample_sd": 0.030550504633038898
+      },
+      "correct_minus_opposite_probability_a": {
+        "mean": 0.23058577716350556,
+        "sample_sd": 0.012106345955073318
+      },
+      "per_item_probability_direction_rate": 1
+    },
+    {
+      "planner": "agentuct",
+      "correct_minus_opposite_selection": {
+        "mean": 0.9,
+        "sample_sd": 0.02645751311064593
+      },
+      "correct_minus_opposite_probability_a": {
+        "mean": 0.22854761709769567,
+        "sample_sd": 0.008418280180634391
+      },
+      "per_item_probability_direction_rate": 1
+    },
+    {
+      "planner": "uniform",
+      "correct_minus_opposite_selection": {
+        "mean": 0.9233333333333333,
+        "sample_sd": 0.020816659994661302
+      },
+      "correct_minus_opposite_probability_a": {
+        "mean": 0.22372024543583394,
+        "sample_sd": 0.006279714992148623
+      },
+      "per_item_probability_direction_rate": 1
+    },
+    {
+      "planner": "uct",
+      "correct_minus_opposite_selection": {
+        "mean": 0.9066666666666667,
+        "sample_sd": 0.03214550253664321
+      },
+      "correct_minus_opposite_probability_a": {
+        "mean": 0.22478381847341855,
+        "sample_sd": 0.011055978474017802
+      },
+      "per_item_probability_direction_rate": 1
+    },
+    {
+      "planner": "base_qwen3_4b",
+      "correct_minus_opposite_selection": 0.8,
+      "correct_minus_opposite_probability_a": 0.20574121594429015,
+      "per_item_probability_direction_rate": 1
+    }
+  ]
+}

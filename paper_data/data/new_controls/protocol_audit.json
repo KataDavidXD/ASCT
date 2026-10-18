@@ -1,0 +1,15 @@
+{
+  "train_qid_order_identical": true,
+  "train_qid_count": 2000,
+  "actor_cf_matches_paper_matched_splits": {
+    "train": true,
+    "valid": true,
+    "test": true
+  },
+  "independent_at2po_matches_actor_cf_qids": {
+    "valid": true,
+    "test": true
+  },
+  "independent_at2po_matches_paper_test_qids": true,
+  "all_six_at2po_checkpoint_attestations_passed": true
+}

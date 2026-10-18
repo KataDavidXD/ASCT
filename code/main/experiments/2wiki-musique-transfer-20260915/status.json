@@ -1,0 +1,37 @@
+{
+  "phase": "complete",
+  "protocol": "expanded-transfer-100-v1",
+  "datasets": {
+    "two-wiki-bridge-comparison": 100,
+    "musique": {
+      "total": 100,
+      "hop_counts": {
+        "2": 34,
+        "3": 33,
+        "4": 33
+      }
+    }
+  },
+  "methods": [
+    "base",
+    "ppo",
+    "vineppo",
+    "agentuct",
+    "uniform",
+    "uct"
+  ],
+  "seeds": {
+    "base": [
+      20260915
+    ],
+    "trained_planners": [
+      11,
+      23,
+      37
+    ]
+  },
+  "gate_rows": 32,
+  "formal_rows": 3200,
+  "new_search_evaluations": 0,
+  "new_optimizer_updates": 0
+}
