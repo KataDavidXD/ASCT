@@ -3,6 +3,7 @@ from pathlib import Path
 import csv, json, hashlib
 import numpy as np
 import matplotlib
+from plot_style import paper_font
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
@@ -20,7 +21,7 @@ names={m:('ASCT-'+m if m in methods[2:] else m) for m in methods}
 colors=dict(zip(methods,['#555555','#9B6A1C','#737A35','#936490','#16577C']))
 styles=['--',(0,(5,2,1,2)),'--','-.','-']
 markers=['s','^','o','s','D']
-plt.rcParams.update({'font.family':'serif','font.serif':['Times New Roman'],'font.size':10,
+plt.rcParams.update({'font.family':'serif','font.serif':[paper_font()],'font.size':10,
     'axes.labelsize':10,'axes.titlesize':10,'xtick.labelsize':10,'ytick.labelsize':10,
     'legend.fontsize':10,'mathtext.fontset':'stix','pdf.fonttype':42,'ps.fonttype':42,
     'svg.fonttype':'none','axes.linewidth':.65})
@@ -99,7 +100,7 @@ for name in ['training_half','amortized_half']:
     for m in legend_methods:
         j=methods.index(m)
         handles.append(Line2D([],[],color=namespace['colors'][m],ls=namespace['styles'][j],marker=namespace['markers'][j],ms=3.5,lw=1.3))
-    legend=fig.legend(handles,[namespace['names'][m] for m in legend_methods],loc='upper center',bbox_to_anchor=(.52,1.005),ncol=ncol,frameon=False,handlelength=1.4,columnspacing=.7,handletextpad=.3,labelspacing=.15)
+    legend=fig.legend(handles,[namespace['names'][m] for m in legend_methods],loc='upper center',bbox_to_anchor=(.50,1.005),ncol=ncol,frameon=False,handlelength=1.2,columnspacing=.5,handletextpad=.2,labelspacing=.15)
     for t in legend.get_texts():
         if t.get_text().startswith('ASCT-'):t.set_fontweight('bold')
     fig.canvas.draw()

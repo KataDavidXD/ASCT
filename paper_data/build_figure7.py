@@ -6,12 +6,13 @@ Run with Python + matplotlib. Exports PDF, SVG and PNG alongside this file.
 from pathlib import Path
 import json
 import matplotlib
+from plot_style import paper_font
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch, Circle, Rectangle
 
 OUT = Path(__file__).resolve().parent/'figures'
-plt.rcParams.update({'font.family': 'serif', 'font.serif': ['Times New Roman'],
+plt.rcParams.update({'font.family': 'serif', 'font.serif': [paper_font()],
     'mathtext.fontset': 'stix', 'font.size': 9, 'pdf.fonttype': 42,
     'ps.fonttype': 42, 'svg.fonttype': 'none'})
 INK, BLUE, GOLD = '#26313B', '#16577C', '#95631D'

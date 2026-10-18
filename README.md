@@ -24,7 +24,7 @@ The reconstruction verifies input hashes, recomputes reported results and paired
 python paper_data/build_flow_figures.py
 ```
 
-The scripts operate on retained numerical inputs. Repeating GPU training additionally requires the original models, datasets, indices and a compatible runtime.
+Figures use Times New Roman when available and Matplotlib's bundled STIX font otherwise. The scripts operate on retained numerical inputs. Repeating GPU training additionally requires the original models, datasets, indices and a compatible runtime.
 
 ## Paper results
 

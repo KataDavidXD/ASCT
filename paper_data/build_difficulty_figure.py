@@ -7,6 +7,7 @@ from pathlib import Path
 from statistics import mean, stdev
 import numpy as np
 import matplotlib
+from plot_style import paper_font
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
@@ -78,7 +79,7 @@ def main():
             summary.append(dict(method=method,level=level,n=rr[0]['n'],seeds=len(rr),
                 mean=mean(r['utility'] for r in rr),sd=stdev(r['utility'] for r in rr) if len(rr)>1 else ''))
     write_csv(DATA/'difficulty_by_seed.csv',seed_rows);write_csv(DATA/'difficulty_summary.csv',summary)
-    plt.rcParams.update({'font.family':'serif','font.serif':['Times New Roman'],'font.size':9,
+    plt.rcParams.update({'font.family':'serif','font.serif':[paper_font()],'font.size':9,
                          'mathtext.fontset':'stix','pdf.fonttype':42,'svg.fonttype':'none'})
     fig,axes=plt.subplots(1,3,figsize=(6.4,2.6),sharey=True)
     for ax,level in zip(axes,LEVELS):

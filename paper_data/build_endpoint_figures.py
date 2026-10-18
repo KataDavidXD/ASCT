@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 
 import matplotlib
+from plot_style import paper_font
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
@@ -81,9 +82,9 @@ for r in crossings:
     if m == "AgentUCT":
         crossing_values[c] = float(n_cross)
 
-font_path = font_manager.findfont("Times New Roman", fallback_to_default=False)
+font_path = font_manager.findfont(paper_font(), fallback_to_default=False)
 plt.rcParams.update({
-    "font.family": "serif", "font.serif": ["Times New Roman"],
+    "font.family": "serif", "font.serif": [paper_font()],
     "font.size": 9, "axes.labelsize": 10, "xtick.labelsize": 9, "ytick.labelsize": 9,
     "legend.fontsize": 9, "mathtext.fontset": "stix", "pdf.fonttype": 42,
     "ps.fonttype": 42, "svg.fonttype": "none", "axes.linewidth": 0.65,

@@ -2,6 +2,7 @@ from pathlib import Path
 import csv,json,hashlib
 import numpy as np
 import matplotlib
+from plot_style import paper_font
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.ticker import FormatStrFormatter
@@ -13,7 +14,7 @@ def read(name): return list(csv.DictReader((HERE/'data'/name).open(encoding='utf
 selected=[r for r in read('main_endpoints.csv') if r['setting']=='matched' and r['split']=='test']
 u={m:np.array([float(r['utility_official']) for r in selected if r['method']==m]) for m in METHODS}
 base=float(next(r['utility_official'] for r in selected if r['method']=='Base'))
-plt.rcParams.update({'font.family':'serif','font.serif':['Times New Roman'],'font.size':9,'mathtext.fontset':'stix','pdf.fonttype':42,'svg.fonttype':'none'})
+plt.rcParams.update({'font.family':'serif','font.serif':[paper_font()],'font.size':9,'mathtext.fontset':'stix','pdf.fonttype':42,'svg.fonttype':'none'})
 def clean(ax):
     ax.spines[['top','right']].set_visible(False); ax.set_axisbelow(True)
 def save(fig,name):

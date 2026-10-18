@@ -7,6 +7,7 @@ import math
 import statistics as stats
 import numpy as np
 import matplotlib
+from plot_style import paper_font
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
@@ -82,7 +83,7 @@ def main():
     lines.extend([r'\bottomrule', r'\end{tabularx}', r'\end{table}'])
     (HERE / 'j_comparison.tex').write_text('\n'.join(lines) + '\n', encoding='utf-8')
 
-    plt.rcParams.update({'font.family': 'serif', 'font.serif': ['Times New Roman'], 'font.size': 10,
+    plt.rcParams.update({'font.family': 'serif', 'font.serif': [paper_font()], 'font.size': 10,
                          'mathtext.fontset': 'stix', 'pdf.fonttype': 42, 'svg.fonttype': 'none'})
     fig, axes = plt.subplots(1, 2, figsize=(5.5, 2.05))
     handles = []

@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import numpy as np
 import matplotlib
+from plot_style import paper_font
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
@@ -23,7 +24,7 @@ def vals(m,key):return np.array([float(lookup[m,s][key]) for s in SEEDS])
 ENV=('generator_4b_input_tokens','generator_4b_output_tokens','query_embedding_06b_input_tokens','reranker_06b_input_tokens')
 for m in ALL:
     assert np.array_equal(sum(vals(m,k) for k in ENV),vals(m,'qwen_tokens'))
-plt.rcParams.update({'font.family':'serif','font.serif':['Times New Roman'],'font.size':9,
+plt.rcParams.update({'font.family':'serif','font.serif':[paper_font()],'font.size':9,
                      'mathtext.fontset':'stix','pdf.fonttype':42,'svg.fonttype':'none'})
 def style(ax,labels=True,methods=TREES):
     ax.set_yticks(range(len(methods)),[NAMES[m] for m in methods] if labels else [])

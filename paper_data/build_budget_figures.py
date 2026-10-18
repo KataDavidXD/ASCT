@@ -5,6 +5,7 @@ import gzip
 from pathlib import Path
 import numpy as np
 import matplotlib
+from plot_style import paper_font
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
@@ -53,7 +54,7 @@ def main():
     for name,rr in [('state_curves',rows),('seed_curves',seedrows),('mean_curves',summary)]:
         with (OUT/f'{name}.csv').open('w',newline='') as f:
             w=csv.DictWriter(f,fieldnames=rr[0].keys());w.writeheader();w.writerows(rr)
-    plt.rcParams.update({'font.family':'serif','font.serif':['Times New Roman'],'font.size':8.5,
+    plt.rcParams.update({'font.family':'serif','font.serif':[paper_font()],'font.size':8.5,
                          'mathtext.fontset':'stix','pdf.fonttype':42})
     groups=[('utility_credit_vs_evaluations',[
         ('utility',1,'(a) Evaluated workflow utility','Mean auxiliary utility'),

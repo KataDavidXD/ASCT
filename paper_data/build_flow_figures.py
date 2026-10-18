@@ -5,13 +5,14 @@ Illustrative numbers demonstrate credit construction, not experimental outcomes.
 from pathlib import Path
 import hashlib,json,subprocess
 import matplotlib
+from plot_style import paper_font
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch,FancyArrowPatch,Circle,Rectangle
 
 HERE=Path(__file__).resolve().parent
 OUT=HERE/'figures'
-plt.rcParams.update({'font.family':'serif','font.serif':['Times New Roman','Nimbus Roman'],
+plt.rcParams.update({'font.family':'serif','font.serif':[paper_font()],
     'font.size':10,'mathtext.fontset':'stix','pdf.fonttype':42,'ps.fonttype':42,'svg.fonttype':'none'})
 INK='#202831';BLUE='#16577C';GRAY='#586775';BROWN='#90611E';PALE='#EDF4F8'
 

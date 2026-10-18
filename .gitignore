@@ -330,3 +330,4 @@
 !/tools/scoring/hotpot_evaluate_v1.py
 !/tools/verify_public_release.py
 !/tools/verify_results.py
+!/paper_data/plot_style.py
